@@ -1,0 +1,123 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+#nav-bar
+{
+   position: sticky;
+   top: 0;
+   z-index: 10; 
+}
+.nav-bar
+{
+    background-image: linear-gradient(to right,#6f54ac,#9f5bcc);
+    padding: 0 !important;
+}
+.navbar-brand img
+{
+height: 40px;
+padding-left: 20px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: #fff important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars
+{
+    color: black;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+/*-----------------banner section-----------------*/
+#banner
+{
+    background-image: linear-gradient(to right,#4577d4,#146296);
+    color: #fff;
+    padding-top: 5%;
+}
+.title
+{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+.promo-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+.sub-title
+{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+/* Style for the social media section */
+#social-media {
+    background-color: #333; 
+    color: #fff;
+    padding: 20px; 
+
+    /* Position the section at the bottom of the page */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center; 
+}
+
+/* Style for social media links (e.g., icons) */
+#social-media a {
+    color: #fff; 
+    text-decoration: none;
+    font-size: 24px; 
+    margin: 0 10px; 
+}
+
+.social-link
+{
+   
+    font-size: 10px;
+}
+#booking
+{
+    background-image: linear-gradient(to right,#1968a8,#4087d8);
+    color: #fff;
+    padding-top: 5%;
+}
+#payment
+{
+    background-image: linear-gradient(to right,#248ae9,#5394df);
+    color: #fff;
+    padding-top: 5%;
+}
+#contact
+{
+    background-image: linear-gradient(to right,#2794d3,#297bda);
+    color: #fff;
+    padding-top: 5%;
+}
+
+
+
+
+
+
